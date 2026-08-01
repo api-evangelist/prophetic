@@ -1,22 +1,72 @@
 aid: prophetic
 name: Prophetic
-description: Prophetic is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Prophetic is a San Francisco-based neurotechnology startup, incorporated in
+  January 2023, building the world's first wearable device for stabilizing lucid
+  dreams. Its "Halo" headband pairs EEG sensing with targeted transcranial
+  focused ultrasound (tFUS) to noninvasively stimulate the prefrontal cortex,
+  driven by an in-house AI model, Morpheus-1, that takes brain activity as its
+  prompt and generates shaped ultrasonic waveforms as output. Backed by BoxGroup
+  and a16z's Scout Fund, Prophetic sells its neuromodulation headbands
+  direct-to-consumer. The company was surfaced as an a16z portfolio company and
+  added to the API Evangelist network for enrichment. As of this pass Prophetic
+  publishes no public API, developer portal, SDK, or programmatic integration
+  surface — it is a consumer hardware and wellness company.
 url: https://raw.githubusercontent.com/api-evangelist/prophetic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- BoxGroup
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Neurotechnology
+- Wearables
+- Consumer Hardware
+- Lucid Dreaming
+- Sleep Technology
+- Brain-Computer Interface
+- Artificial Intelligence
+- Health and Wellness
+image: https://www.prophetic.com/favicon.ico
+common:
+- type: DomainSecurity
+  url: security/prophetic-domain-security.yml
+- type: Website
+  url: https://www.prophetic.com
+- type: TermsOfService
+  url: https://www.prophetic.com/tos.pdf
+- type: PrivacyPolicy
+  url: https://www.prophetic.com/privacy_policy.pdf
+- type: Support
+  url: mailto:support@prophetic.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/propheticai
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
